@@ -76,7 +76,7 @@
    "fieldtype": "Column Break"
   }
  ],
- "modified": "2019-06-20 01:32:07.937655",
+ "modified": "2019-06-23 15:10:26.418140",
  "modified_by": "Administrator",
  "module": "Meeting",
  "name": "Meeting",
@@ -91,6 +91,18 @@
    "read": 1,
    "report": 1,
    "role": "Meeting Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
    "share": 1,
    "write": 1
   }

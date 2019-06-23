@@ -5,10 +5,13 @@ from frappe import _
 def get_data():
 	return [
 		{
-			"module_name": "Meeting",
-			"color": "grey",
-			"icon": "octicon octicon-file-directory",
+			"module_name": "Desk",
+			"category": "Administration",
+			"label": _("Meeting"),
+			"color": "#FFF5A7",
+			"reverse": 1,
+			"icon": "octicon octicon-calendar",
 			"type": "module",
-			"label": _("Meeting")
+			"description": "Todos, notes, calendar and newsletter."
 		}
 	]
